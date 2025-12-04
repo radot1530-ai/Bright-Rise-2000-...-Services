@@ -36,7 +36,7 @@ const terresList = [
     pri: "$400 / mwa",
     adresse: " Ayiti/Camp-Perrin",
     deskripsyon: "2¹/2 ekta...",
-    imaj: "/image/Screenshot_20251109-155633.png",
+    imaj: "image/Screenshot_20251109-155633.png",
     adminwhatsapp: "Achte/Negosye"
   },
   {
@@ -65,7 +65,7 @@ const servicesList = [
     pri: " ...",
     adresse: " Lòt modèl yo poko disponib ",
     deskripsyon: " Kontakte si w vle antre an kontak ak bòs kouti a...",
-    imaj: "/image/IMG-20251201-WA0009.jpg",
+    imaj: "image/IMG-20251201-WA0009.jpg",
     adminwhatsapp: "Achte/Negosye"
   },
   {
@@ -74,7 +74,7 @@ const servicesList = [
     pri: " ... ",
     adresse: "... , Ayiti",
     deskripsyon: " ... ",
-    imaj: "/image/Screenshot_20251203-182013.png",
+    imaj: "image/Screenshot_20251203-182013.png",
     adminwhatsapp: "Achte/Negosye"
   },
   {
