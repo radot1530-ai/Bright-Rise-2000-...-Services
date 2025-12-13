@@ -46,7 +46,7 @@ function loadKay() {
       <p>${kay.deskripsyon}</p>
       <strong>${kay.pri}</strong>
    <p>${kay.adresse}</p>
-      <a href="https://wa.me/+50948404585"  target="blank" class="whatsapp-btn">${kay.adminwhatsapp}</a>
+      <a href="https://wa.me/+50940488401"  target="blank" class="whatsapp-btn">${kay.adminwhatsapp}</a>
     `;
     container.appendChild(div);
   });
@@ -66,7 +66,7 @@ function loadTerres() {
       <p>${ter.deskripsyon}</p>
       <strong>${ter.pri}</strong>
       <p>${ter.adresse}</p>
-<a href="https://wa.me/+50948404585"  target="blank" class="whatsapp-btn">${ter.adminwhatsapp}</a>
+<a href="https://wa.me/+50940488401"  target="blank" class="whatsapp-btn">${ter.adminwhatsapp}</a>
     `;
     container.appendChild(div);
   });
@@ -86,7 +86,7 @@ function loadServices() {
       <p>${serv.deskripsyon}</p>
       <p><strong>${serv.pri}</strong></p>
          <p><strong>${serv.adresse}</strong></p>
-      <a href="https://wa.me/+50948404585"  target="blank" class="whatsapp-btn">${serv.adminwhatsapp}</a>
+      <a href="https://wa.me/+50940488401"  target="blank" class="whatsapp-btn">${serv.adminwhatsapp}</a>
     `;
     container.appendChild(div);
   });
