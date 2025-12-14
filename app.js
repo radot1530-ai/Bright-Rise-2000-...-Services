@@ -25,6 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if(target === "accueil") loadKay();
       if(target === "terres") loadTerres();
       if(target === "services") loadServices();
+      if(target=== "konkou") loadKonkou();
     });
   });
 
@@ -35,18 +36,18 @@ document.addEventListener("DOMContentLoaded", () => {
 // Fonksyon pou montre kay
 function loadKay() {
   const container = document.getElementById("accueil");
-  container.innerHTML = "<h2>🏡 Kay disponib</h2>";
+  container.innerHTML = "<h2></h2>";
 
   kayList.forEach(kay => {
     const div = document.createElement("div");
     div.className = "property-card";
     div.innerHTML = `
-      <img src="${kay.imaj}" alt="${kay.tit}" class="card-img">
+      <img src="${kay.imaj}" alt="${kay.tit}" class="property-img">
       <h3>${kay.tit}</h3>
       <p>${kay.deskripsyon}</p>
       <strong>${kay.pri}</strong>
    <p>${kay.adresse}</p>
-      <a href="https://wa.me/+50940488401"  target="blank" class="whatsapp-btn">${kay.adminwhatsapp}</a>
+      <a href="https://wa.me/+50948404585"  target="blank" class="whatsapp-btn">${kay.adminwhatsapp}</a>
     `;
     container.appendChild(div);
   });
@@ -66,7 +67,7 @@ function loadTerres() {
       <p>${ter.deskripsyon}</p>
       <strong>${ter.pri}</strong>
       <p>${ter.adresse}</p>
-<a href="https://wa.me/+50940488401"  target="blank" class="whatsapp-btn">${ter.adminwhatsapp}</a>
+<a href="https://wa.me/+50948404585"  target="blank" class="whatsapp-btn">${ter.adminwhatsapp}</a>
     `;
     container.appendChild(div);
   });
@@ -86,8 +87,8 @@ function loadServices() {
       <p>${serv.deskripsyon}</p>
       <p><strong>${serv.pri}</strong></p>
          <p><strong>${serv.adresse}</strong></p>
-      <a href="https://wa.me/+50940488401"  target="blank" class="whatsapp-btn">${serv.adminwhatsapp}</a>
+      <a href="https://wa.me/+50948404585"  target="blank" class="whatsapp-btn">${serv.adminwhatsapp}</a>
     `;
     container.appendChild(div);
   });
-                          }
+}
